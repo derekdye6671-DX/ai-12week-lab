@@ -1,42 +1,52 @@
 # 每周进度｜工作事实记录
 
-**最近人工核对日期：2026-11-11**  
-**最近状态来源：原《十二周技能与作品清单（确认版）》**  
-**注意：之后的实际进度需要 Claude Code 核实更新；此文件不代表实时状态。**
+**最近核对日期：2026-11-12**
+**来源：十二周冒险岛的验收记录（由 Claude 核实）**
+**只有 Claude 验收过的事项才写进「已完成且验证」。**
 
-## 原定第一周（2026-11-09 — 2026-11-15）
+## 第 1 周｜建村（2026-11-09 — 2026-11-15）
 
-### 根据原文件标注已完成
+日期：2026-11-12
+本周目标：GitHub 账号 + GitHub Desktop + 第一个云端仓库并完成第一次推送
 
-- GitHub 账号、两步验证、GitHub App。
-- Git for Windows 2.56.1 安装和 Git 身份配置（使用 noreply 邮箱）。
-- 频道规划 Excel。
+已完成且验证：
+- 11/09 建项目「小玄子的视频频道」，频道规划 Excel 存到 D 盘（Claude Code 关）。
+- 11/10 GitHub 账号、头像、简介，两步验证已开启（GitHub 关）。
+- 11/11 装好 GitHub App，能讲清仓库、提交、推送、拉取；Git for Windows 安装并配置名字和 noreply 隐私邮箱。
+- 11/11 ChatGPT 交付：技能自测.md（23 条技能，每条配自测题）。
+- 11/12 建公开仓库 xiaoxuanzi-channel，clone 到 D:\GitHub，完成第一次推送（2 条提交）。
+- 11/12 Gemini 交付：「日记本与云端备份」比喻插画。
 
-### 原文件中尚未标为完成／待核实
+正在进行：
+- 11/12 起 Git 操作改用 GitHub Desktop（用户确认的铁律）。
+- 拓展任务 E01（.git 文件夹）、E25（Karpathy 四条规则）已领取，未验收。
+- 拓展任务 E31：私有仓库 ai-12week-lab 已建立并推送 8 个文件（Claude 已在截图中核对）；本 Pull Request 合并后，接着接通 OpenAI 桌面版的 Codex。
 
-- 创建首个远程项目仓库，并完成首次 push。
-- git init、clone、status、add、commit、push、pull 等基础操作。
+本周未完成：
+- Grok 交付：查新手最常踩的 5 个坑。
+- 周六：读懂 anthropics/skills 并把答案提交进 xiaoxuanzi-channel。
+- 周日：周复盘五行。
 
-## 当前阶段的重要讨论
+卡点与错误：
+- Claude 的 GitHub 应用只完成了登录授权、没有安装，暂时不能直接访问私有仓库；改为 Claude 修改本地文件、用户在 GitHub Desktop 里提交并发 Pull Request。
 
-用户认为原 12 周计划的编程和命令行学习偏硬核，希望改为**更靠近实际办公、内容生产、工作流和小产品开发**的课程。
+下一步：
+1. 用户审核并合并本次 Pull Request，在 GitHub Desktop 里切回 main 并 Pull origin。
+2. 在 OpenAI 桌面版里用 Codex 打开 D:\GitHub\ai-12week-lab，做第一次只读审查。
+3. 测试 ChatGPT 能否读到本仓库内容。
 
-上述为待评估的课程修改方向，不意味着已经正式改写原课程。
-
-## 下次开始先确认
-
-1. 现有第一周任务中哪些已做完？哪些尚未完成？
-2. 是否批准将 12 周课程改为“项目驱动、实用优先”的路线？
-3. 本周是否有正在开发、等待审查的项目或分支？
+相关 GitHub 提交或 Pull Request：
+- 45cce6c docs: 导入同步资料包原版和 PLAN.md
+- claude/sync-setup：本次两方化修订
 
 ## 统一更新格式（由负责人维护）
 
-日期：YYYY-MM-DD  
-本周目标：  
-已完成且验证：  
-正在进行：  
-卡点与错误：  
-下一步：  
-相关 GitHub 提交或 Pull Request：  
+日期：YYYY-MM-DD
+本周目标：
+已完成且验证：
+正在进行：
+卡点与错误：
+下一步：
+相关 GitHub 提交或 Pull Request：
 
-不要把未验证的 AI 自述写成“已完成”。
+不要把未验证的 AI 自述写成「已完成」。
