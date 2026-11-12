@@ -2,6 +2,10 @@
 
 这不是聊天记录备份，而是 Claude 和 OpenAI 桌面版（ChatGPT + Codex）共同参照的**项目事实记录**。
 
+## 第一原则（用户已确认）
+
+**把「学多少技术」让位于「你能否独立用起来」。** 凡是要敲命令的步骤由 Claude Code 执行，学习者看懂并批准；每件作品按 `PLAN.md` 里的 5 个问题验收。
+
 ## 先读哪些文件
 
 1. `PLAN.md`：12 周计划文字版（规则、6 件作品、技能清单、逐周任务、拓展任务池）。由 Claude 维护。
@@ -37,6 +41,11 @@
 ## 铁律：GitHub 操作优先用 GitHub Desktop
 
 给用户的所有 GitHub 操作步骤，一律先给 GitHub Desktop 的点按钮做法；Desktop 做不到的（如 Pages、Issues、Actions、Release、仓库和权限设置）才用网页。不要让用户敲 Git 命令。适用于以后每一个 12 周计划。
+
+## 放哪个仓库
+
+- 作品、脚本、网页：`xiaoxuanzi-channel`（公开）。
+- 计划、进度、交接：本仓库 `ai-12week-lab`（私有）。不要为了发布作品而公开本仓库。
 
 ## 安全边界
 

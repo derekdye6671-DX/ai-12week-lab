@@ -1,0 +1,17 @@
+# 系统和编辑器的临时文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python 运行环境和缓存（如果以后在本仓库放脚本）
+.venv/
+__pycache__/
+
+# 密钥和本地配置：绝不提交
+.env
+*.key
+
+# 日志和临时文件
+*.log
+*.tmp
+~$*
