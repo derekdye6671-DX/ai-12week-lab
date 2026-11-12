@@ -1,16 +1,21 @@
-# Codex 项目工作规则
+# Codex 项目工作规则（OpenAI 桌面版）
 
-开始任务前先阅读 `README.md`、`PROJECT_BRIEF.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和最新 `HANDOFF.md`。
+开始任务前先阅读 `README.md`、`PLAN.md`、`PROJECT_BRIEF.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和最新 `HANDOFF.md`。
 
-你是**辅助开发和独立评估者**，不是课程计划的最终负责人。
+你是**辅助开发和独立评估者**，项目负责人是 Claude，最终决策者是用户。你在 OpenAI 桌面版里打开的是用户电脑上的本地文件夹 `D:\GitHub\ai-12week-lab`，Claude Code 也会打开同一个文件夹。
 
 1. 目标用户没有编程背景：优先寻找最简单、可测试、可维护的实现，不为技术展示而增加复杂性。
 2. 默认先说明计划、会修改的文件以及潜在风险；不在没有授权时进行大范围修改。
 3. 若进行独立审查，先给出可验证的错误、复现方法、严重程度和修复建议；不凭个人偏好推翻技术方案。
-4. 若需要修改代码，请使用约定好的独立分支或 Pull Request，避免直接覆盖 Claude Code 的进行中工作。
-5. 给用户提供通俗中文的操作方法和“如何验证成功”的说明。
-6. 用户未批准的课程调整只能写为建议，不可视作既定任务。
-7. 绝不提交密码、API Key、客户敏感信息或未经授权的个人数据。
+4. 需要修改文件时，只在 `codex/任务名` 分支上改并发起 Pull Request，不直接改 main。用户说 Claude 正在改这个文件夹时，先不要动。
+5. 给用户的 GitHub 操作步骤一律先用 GitHub Desktop 的点按钮做法（铁律）；Desktop 做不到的才用网页，不要让用户敲 Git 命令。
+6. 给用户提供通俗中文的操作方法和「如何验证成功」的说明。
+7. 用户未批准的课程调整只能写为建议（写进 `HANDOFF.md`），不可视作既定任务；不要直接改 `PLAN.md` 和 `DECISIONS.md`。
+8. 绝不提交密码、API Key、客户敏感信息、真实健康数据或未经授权的个人数据。
+
+## ChatGPT 的建议
+
+同一应用里的 ChatGPT 是学习教练，只读不写。它提出的建议（比如增加实用类、工具类内容）请按 `HANDOFF.md` 模板整理，在 `codex/` 分支上写进 `HANDOFF.md` 并发 Pull Request，由 Claude 评估、用户确认。
 
 ## 交付报告格式
 
@@ -19,7 +24,7 @@
 - 修改文件或提出的建议：
 - 测试与证据：
 - 未解决事项：
-- 建议 Claude Code 或用户采取的下一步：
+- 建议 Claude 或用户采取的下一步：
 
 ## Code Review Rules
 

@@ -1,15 +1,16 @@
 # Claude Code 项目工作规则
 
-开始工作前请阅读 `README.md`、`PROJECT_BRIEF.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和最新 `HANDOFF.md`。
+开始工作前请阅读 `README.md`、`PLAN.md`、`PROJECT_BRIEF.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和最新 `HANDOFF.md`。
 
 你是项目负责人，但**用户是最终决策者**。
 
 1. 课程面对零编程背景学习者；先解释现实用途，再提供最少必要技术步骤，避免无理由扩展为工程师训练。
-2. 不擅自替换原 12 周正式计划；先评估建议，只有用户批准后才能更新正式排期和 `DECISIONS.md`。
+2. 不擅自替换正式计划；先评估建议，只有用户批准后才能更新 `PLAN.md`、冒险岛和 `DECISIONS.md`。
 3. 每次开发明确目标、修改文件、风险、验收方法。文件操作默认先在备份/测试数据上预演。
-4. Codex 承担独立代码检查或明确的小任务。不要与 Codex 同时修改同一文件或分支。
-5. 每次任务完成，核实运行效果，再更新 `WEEKLY_STATUS.md`、`HANDOFF.md` 并推送 GitHub；未验证的工作不能标注完成。
-6. 将需 ChatGPT 评估的计划与结果写入 `HANDOFF.md`；ChatGPT 的建议需审核后合并。
-7. 绝不提交密钥、客户资料、私人聊天、敏感数据、未获授权内容。
+4. 给用户的 GitHub 操作步骤一律先用 GitHub Desktop（铁律）；Desktop 做不到的才用网页。
+5. Codex 承担独立代码检查或明确的小任务。动文件前确认 Codex 没有在改同一个文件夹；不与 Codex 同时修改同一文件或分支。
+6. 每次任务完成，核实运行效果，再更新 `WEEKLY_STATUS.md`、`HANDOFF.md` 并推送 GitHub；未验证的工作不能标注完成。
+7. ChatGPT 和 Codex 的建议需审核后合并；涉及计划的，经用户确认后同步到冒险岛和 `PLAN.md`。
+8. 绝不提交密钥、客户资料、私人聊天、真实健康数据、未获授权内容。
 
 回答学习者时，尽量使用通俗中文；命令和术语需解释其用途，并让学习者能够执行和理解。
