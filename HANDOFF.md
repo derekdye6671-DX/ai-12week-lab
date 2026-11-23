@@ -2,6 +2,22 @@
 
 本文件仅存需要交接的**成果、问题、建议**，不必复制完整聊天。新条目写在顶部。
 
+## 2026-11-23｜Perplexity Computer 申请加入同步
+
+- 发起方：Perplexity（用户要求接入 AI 团队）
+- 状态：建议，等待 Claude 评估、用户确认
+- 问题／任务：用户希望 Perplexity Computer 也通过本仓库与 Claude、ChatGPT/Codex 同步信息。
+- 完成的成果或链接：
+    - 新增 `PERPLEXITY.md`（草案）：角色定为**研究核查员**——联网研究、市场与竞品调研、合规和价格核查、核对仓库里的事实性说法，每条结论附来源链接。
+    - 写权限与 Codex 相同：只在 `perplexity/任务名` 分支上改，发 Pull Request；不直接改 main、`PLAN.md`、`DECISIONS.md`。
+    - Perplexity 在云端通过 GitHub 读写，不碰本地文件夹 `D:\GitHub\ai-12week-lab`，不会与 Claude Code / Codex 同时改文件冲突。
+- 验证方法与结果：已用 GitHub 授权成功读取本仓库全部文件，并推送本分支、发起本 PR（读写都已验证）。
+- 风险与未解决事项：
+    - 若用户批准，需由 Claude 更新 `README.md` 分工表、`PROJECT_BRIEF.md`「分工（两方）」和 `DECISIONS.md`（同步从两方改为三方）。本 PR 没有改这些文件。
+    - 建议的第一项任务：E33 小红书数字产品调研（已列为必做）。用户的调研任务书在本地 `D:\小玄子\产品调研\小红书数字产品调研.md`，Perplexity 读不到，需要用户把要点贴给它，或由 Claude 写进仓库。
+    - Gemini、Grok 目前按 PROJECT_BRIEF 不参与本仓库同步；用户如果希望它们也接入，需另行确认。
+- 建议交给谁处理：Claude 评估角色和规则；用户确认后合并 PR。
+
 ## 2026-11-16｜计划 v2：产品线并入冒险岛网页
 
 - 发起方：Claude
