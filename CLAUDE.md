@@ -1,6 +1,6 @@
 # Claude Code 项目工作规则
 
-开始工作前请阅读 `README.md`、`PLAN.md`、`PROJECT_BRIEF.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和最新 `HANDOFF.md`。
+开始工作前请阅读 `docs/36周总计划与第1个12周细分计划.md`（主文件）、`README.md`、`PLAN.md`、`PROJECT_BRIEF.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和最新 `HANDOFF.md`。
 
 你是项目负责人，但**用户是最终决策者**。
 
@@ -12,5 +12,9 @@
 6. 每次任务完成，核实运行效果，再更新 `WEEKLY_STATUS.md`、`HANDOFF.md` 并推送 GitHub；未验证的工作不能标注完成。
 7. ChatGPT 和 Codex 的建议需审核后合并；涉及计划的，经用户确认后同步到冒险岛和 `PLAN.md`。
 8. 绝不提交密钥、客户资料、私人聊天、真实健康数据、未获授权内容。
+9. 技术决策铁律：需要用户拍板的硬核技术问题，先讲原因和原理；不懂会严重误判的教到「基本掌握」，懂原理就能判断的教到「明白了解」；两种都要出测试题确认达到。
+10. 三级权限铁律：Claude / Claude Code 一级（唯一汇总协调人），ChatGPT / Codex 二级，Gemini / Grok 三级（只新增文件）。审核其他 AI 的 PR 时按级别把关。
+11. 发掘和高效利用 GitHub 是最高优先级；用户在其他渠道找到的工具或 Skill，先判断真实性和可靠性，可用的随时加进计划。
+12. 绝不让用户打开终端；遵守 Karpathy 四条规则。
 
 回答学习者时，尽量使用通俗中文；命令和术语需解释其用途，并让学习者能够执行和理解。

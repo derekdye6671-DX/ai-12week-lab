@@ -1,6 +1,6 @@
-# AI 12 周学习实验室｜两方共享资料库
+# AI 12 周学习实验室｜多方共享资料库
 
-这不是聊天记录备份，而是 Claude 和 OpenAI 桌面版（ChatGPT + Codex）共同参照的**项目事实记录**。
+这不是聊天记录备份，而是 Claude、ChatGPT / Codex、Gemini、Grok 共同参照的**项目事实记录**。每个 12 周计划的相关信息都放在本仓库；计划产出的成品和作业放在 xiaoxuanzi-channel。
 
 ## 第一原则（用户已确认）
 
@@ -8,26 +8,29 @@
 
 ## 先读哪些文件
 
+0. **`docs/36周总计划与第1个12周细分计划.md`：36 周总计划与第 1 个 12 周细分计划（当前主文件，和其他文件冲突时以它为准）。**
 1. `PLAN.md`：12 周计划文字版（规则、6 件作品、技能清单、逐周任务、拓展任务池）。由 Claude 维护。
 2. `PROJECT_BRIEF.md`：项目目标、学习方式和分工。
 3. `WEEKLY_STATUS.md`：本周目标、已验收事项和卡点。
 4. `DECISIONS.md`：用户已确认的重要决定，不允许 AI 擅自修改。
-5. `HANDOFF.md`：两方之间需要移交的建议、问题和结果。
+5. `HANDOFF.md`：各方之间需要移交的建议、问题和结果（只有 Claude 写入，其他 AI 的建议放 `docs/建议/`）。
 6. `CLAUDE.md`：Claude Code 的协作规则。
 7. `AGENTS.md`：Codex（OpenAI 桌面版）的协作规则。
 
-## 两方分工
+## 三级权限（2026-11-23 用户定为铁律）
 
-| 一方 | 负责 | 能写什么 |
+| 级别 | AI | 能写什么 |
 | --- | --- | --- |
-| 用户（小玄子） | 最终决策 | 全部；只有用户能批准写入 DECISIONS.md 的内容 |
-| Claude（项目负责人） | 维护进度和重要决定、主开发、技术验收、合并建议 | main 分支上的全部文件 |
-| OpenAI 桌面版 · Codex | 独立审查、测试、明确的小任务 | 只在 `codex/任务名` 分支上改，通过 Pull Request 交给 Claude |
-| OpenAI 桌面版 · ChatGPT | 学习教练、独立顾问 | 只读；建议按 HANDOFF.md 模板写好，交给 Codex 写进分支或由用户转给 Claude |
+| 用户（小玄子） | 最终决策者 | 全部；只有用户能批准写入 DECISIONS.md 的内容 |
+| 一级 | Claude、Claude Code（唯一汇总协调人） | 用户批准后改 main 上的核心文件；审核并合并别人的 PR |
+| 二级 | ChatGPT、Codex（归在 ChatGPT 名下） | 在 `chatgpt/…`、`codex/…` 分支上新增建议文件或提议修改，发 PR 由 Claude 审核；不直接改 main |
+| 三级 | Gemini、Grok（含 Grok Bot） | 只新增 `docs/建议/<名字>/`、`docs/调研/` 下的文件；不改任何已有文件 |
+
+Perplexity 11/23 起暂停（额度用完），恢复后作为三级调研备选。分支名一律用英文。
 
 ## 两套记录的分工
 
-- 打卡、验收、金币：以「十二周冒险岛」（Claude 维护的网页）为准。
+- 打卡、验收、金币：以冒险岛网页（公开仓库 quest-island 的 verified.json）为准。
 - 计划、决定、交接：以本仓库为准。`WEEKLY_STATUS.md` 由 Claude 根据冒险岛里的验收结果填写。
 - 写着「已验收」的事项，表示 Claude 已在冒险岛里确认过。
 
@@ -35,7 +38,7 @@
 
 - **每次开始**：在 GitHub Desktop 里点 Fetch origin，有更新就 Pull origin；然后读 `PLAN.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和 `HANDOFF.md` 最上面的条目。
 - **每次结束**：做事的一方交出成果和改动说明；Claude 核实后更新 `WEEKLY_STATUS.md` 和 `HANDOFF.md`，提交并推送。
-- **一次只让一方改文件。** Claude Code 和 Codex 打开的是同一个本地文件夹 `D:\GitHub\ai-12week-lab`，两边同时改，后保存的会覆盖先保存的。
+- **一次只让一个 AI 改同一个文件。** Claude Code 和 Codex 打开的是同一个本地文件夹 `D:\GitHub\ai-12week-lab`，两边同时改，后保存的会覆盖先保存的。
 - **重大调整**：先在 `HANDOFF.md` 记录建议，用户确认后才写入 `DECISIONS.md` 和 `PLAN.md`。
 
 ## 铁律：GitHub 操作优先用 GitHub Desktop

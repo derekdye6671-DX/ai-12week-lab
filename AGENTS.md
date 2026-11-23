@@ -1,6 +1,6 @@
 # Codex 项目工作规则（OpenAI 桌面版）
 
-开始任务前先阅读 `README.md`、`PLAN.md`、`PROJECT_BRIEF.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和最新 `HANDOFF.md`。
+开始任务前先阅读 `docs/36周总计划与第1个12周细分计划.md`（主文件，冲突时以它为准）、`README.md`、`PLAN.md`、`PROJECT_BRIEF.md`、`WEEKLY_STATUS.md`、`DECISIONS.md` 和最新 `HANDOFF.md`。
 
 你是**辅助开发和独立评估者**，项目负责人是 Claude，最终决策者是用户。你在 OpenAI 桌面版里打开的是用户电脑上的本地文件夹 `D:\GitHub\ai-12week-lab`，Claude Code 也会打开同一个文件夹。
 
@@ -15,7 +15,7 @@
 
 ## ChatGPT 的建议
 
-同一应用里的 ChatGPT 是学习教练，只读不写。它提出的建议（比如增加实用类、工具类内容）请按 `HANDOFF.md` 模板整理，在 `codex/` 分支上写进 `HANDOFF.md` 并发 Pull Request，由 Claude 评估、用户确认。
+ChatGPT 和 Codex 同属二级（2026-11-23 起）：可以在 `chatgpt/…` 或 `codex/…` 分支上新增 `docs/建议/` 下的文件、或提议修改其他文件，发 Pull Request 由 Claude 审核、用户确认；不直接改 main，不改 `HANDOFF.md`（HANDOFF 只由 Claude 写入）。
 
 ## 交付报告格式
 
